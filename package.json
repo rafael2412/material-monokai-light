@@ -1,7 +1,7 @@
 {
-  "name": "material-monokai",
-  "displayName": "Material Monokai Theme",
-  "description": "Material Monokai Theme",
+  "name": "material-monokai-light",
+  "displayName": "Material Monokai Light Theme",
+  "description": "Material Monokai Light Theme",
   "author": "Alessio Enrico Repetti <repeale@gmail.com>",
   "version": "1.1.0",
   "publisher": "repeale",
@@ -14,8 +14,8 @@
     "vscode": "^1.60.1"
   },
   "galleryBanner": {
-    "color": "#292929",
-    "theme": "dark"
+    "color": "#FFFFFF",
+    "theme": "light"
   },
   "categories": [
     "Themes"
@@ -24,14 +24,15 @@
     "themes": [
       {
         "label": "Material Monokai High Contrast",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Material-Monokai-High-Contrast-color-theme.json"
+        "uiTheme": "hc-light",
+        "path": "./themes/Material-Monokai-Light-High-Contrast-color-theme.json"
       }
     ]
   },
   "keywords": [
     "material theme",
     "monokai",
+    "light",
     "high contrast"
   ],
   "prettier": "@repeale/prettier-config",
